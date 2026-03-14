@@ -2,8 +2,7 @@ import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router";
 import { Menu, X, Phone, MessageCircle } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
-import logoImage from "figma:asset/7bd96ff4f4b575dc30398fff9752f5c30f29fae5.png";
-
+import logo from "../../assets/logo.png"
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
